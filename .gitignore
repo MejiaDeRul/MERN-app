@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Editor folders and settings
+.vscode/
+.idea/
+*.sw?
+
+# MacOS
+.DS_Store
+
+# ESLint cache
+.eslintcache
+
+# Jest
+coverage/
+jest.config.js
+jest.config.ts
+jest.setup.js
+jest.setup.ts
+test-results/
